@@ -1,0 +1,13 @@
+def VowelCount(str)
+
+  vo=["a", "e", "i", "o", "u"]
+  charr=str.split('')
+  numofvo= vo & charr
+  
+  return numofvo.count
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+VowelCount(STDIN.gets)           
